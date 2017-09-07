@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVERT_WEB_SOLUTION", "DVERT_WEB_SOLUTION\DVERT_WEB_SOLUTION.csproj", "{CE0F2831-F878-4502-ABC7-19EDDE2B2768}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "..\..\..\..\Pictures\VERT\esteem-web_Free20-02-2017_974513542\web\", "{0DEB7F20-E487-43A0-AA89-CFADAA0D226C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2606"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Pictures\VERT\esteem-web_Free20-02-2017_974513542\web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2606\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2606"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Pictures\VERT\esteem-web_Free20-02-2017_974513542\web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2606\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2606"
+		SlnRelativePath = "..\..\..\..\Pictures\VERT\esteem-web_Free20-02-2017_974513542\web\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE0F2831-F878-4502-ABC7-19EDDE2B2768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0F2831-F878-4502-ABC7-19EDDE2B2768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0F2831-F878-4502-ABC7-19EDDE2B2768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0F2831-F878-4502-ABC7-19EDDE2B2768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DEB7F20-E487-43A0-AA89-CFADAA0D226C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEB7F20-E487-43A0-AA89-CFADAA0D226C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEB7F20-E487-43A0-AA89-CFADAA0D226C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEB7F20-E487-43A0-AA89-CFADAA0D226C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

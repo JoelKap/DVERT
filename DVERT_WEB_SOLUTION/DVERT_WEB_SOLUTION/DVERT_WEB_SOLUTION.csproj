@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net452</TargetFramework>
+    <RuntimeIdentifier>win7-x86</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\app\app.js" />
+    <Content Include="wwwroot\app\components\dashboard\dashboard.controller.js" />
+    <Content Include="wwwroot\app\components\dashboard\dashboard.html" />
+    <Content Include="wwwroot\app\components\login\login.controller.js" />
+    <Content Include="wwwroot\app\components\login\login.html" />
+    <Content Include="wwwroot\app\components\pendingAdvert\pendingAdvert.controller.js" />
+    <Content Include="wwwroot\app\components\pendingAdvert\pendingAdvert.html" />
+    <Content Include="wwwroot\app\config.route.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.3" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\index.controller.js" />
+    <None Include="wwwroot\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\css\" />
+    <Folder Include="wwwroot\assets\images\" />
+    <Folder Include="wwwroot\assets\js\" />
+    <Folder Include="wwwroot\assets\fonts\" />
+  </ItemGroup>
+
+</Project>
